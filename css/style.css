@@ -1,0 +1,160 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a, input{
+    text-decoration: none;
+    color: black;
+}
+div{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    padding: 6px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.content-left{
+    height: 48px;
+    padding: 0px 4px 0px 32px;
+    display: flex;
+    align-items: center;
+}
+.content-1 a{
+    margin-left: 15px;
+    
+}
+.content-2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.menu img{
+    width: 16px;
+    height: 16px;
+}
+.user-pic img{
+    width: 32px;
+    height: 32px;
+}
+.menu, .user-pic{
+    height: 48px;
+    width: 48px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-image{
+    height: 92px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image img{
+    height: 92px;
+    width: 272px;
+    
+}
+
+.search{
+    padding: 20px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    width: 582px;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-group p{
+    cursor: pointer;
+}
+.btn-serach:hover{
+    border: 1px solid #dfdfdf;
+    box-shadow: 0px 1px 2px #dfe1e5;
+}
+
+
+.btn-serach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 16px;
+    height: 36px;
+    width: 127px;
+    cursor: pointer;
+}
+
+.search-input img{
+    height: 20px;
+    width: 20px;
+    padding-left: 12px;
+}
+
+.search-input input{
+    height: 34px;
+    width: 446px;
+    margin-left: 17px;
+    font-size: 16px;
+    border: none;
+}
+.search-input input:focus{
+    border-color: white;
+}
+.btn-group{
+    height: 88px;
+    width: 584px;
+}
+.language{
+    width: auto;
+    height: 28px;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    height: 94px;
+    width: 100vw;
+}
+
+.last-second{
+    height: 48px;
+}
+
+.last{
+    height: 46px;
+}
+
+@media (min-width: 650) {
+   
+}
